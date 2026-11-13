@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicações | SONORA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">SONORA</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="https://www.albumoftheyear.org/" target="_blank" rel="noopener noreferrer">Explorar AOTY ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pagina-publicacoes">
+            <div class="cabecalho-publicacoes">
+                <h1>Publicações</h1>
+                <p>Confira todas as nossas publicações sobre álbuns, artistas e músicas.</p>
+            </div>
+
+            <div class="busca-publicacoes">
+                <label for="busca-albuns">Pesquisar álbum</label>
+                <input type="text" id="busca-albuns" placeholder="Digite um álbum ou artista...">
+            </div>
+
+            <div class="filtro-favoritos">
+                <label>
+                    <input type="checkbox" id="apenas-favoritos">
+                    Mostrar apenas favoritos
+                </label>
+            </div>
+
+            <div class="rolagem-tabela">
+                <table class="tabela-publicacoes">
+                    <thead>
+                        <tr>
+                            <th>Capa</th>
+                            <th>Álbum</th>
+                            <th>Artista</th>
+                            <th>Autor</th>
+                            <th>Data</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-album="houndsoflove">
+                            <td>
+                                <a href="publicacao-houndsoflove.html">
+                                    <img src="img/houndsoflove.png" alt="Capa de Hounds of Love">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-houndsoflove.html">HOUNDS OF LOVE</a></td>
+                            <td>Kate Bush</td>
+                            <td>Konishi</td>
+                            <td>10/11/2026</td>
+                        </tr>
+                        <tr data-album="wolf">
+                            <td>
+                                <a href="publicacao-wolf.html">
+                                    <img src="img/wolf.jpg" alt="Capa de WOLF">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-wolf.html">WOLF</a></td>
+                            <td>Tyler, The Creator</td>
+                            <td>Henrocker</td>
+                            <td>09/11/2026</td>
+                        </tr>
+                        <tr data-album="ilaydownmylifeforyou">
+                            <td>
+                                <a href="publicacao-ilaydownmylifeforyou.html">
+                                    <img src="img/ilaydownmylifeforyou.jpg" alt="Capa de I Lay Down My Life For You">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-ilaydownmylifeforyou.html">I LAY DOWN MY LIFE FOR YOU</a></td>
+                            <td>JPEGMAFIA</td>
+                            <td>Henrocker</td>
+                            <td>07/11/2026</td>
+                        </tr>
+                        <tr data-album="diamondjubilee">
+                            <td>
+                                <a href="publicacao-diamondjubilee.html">
+                                    <img src="img/diamondjubilee.jpg" alt="Capa de Diamond Jubilee">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-diamondjubilee.html">DIAMOND JUBILEE</a></td>
+                            <td>Cindy Lee</td>
+                            <td>Konishi</td>
+                            <td>06/11/2026</td>
+                        </tr>
+                        <tr data-album="roots">
+                            <td>
+                                <a href="publicacao-roots.html">
+                                    <img src="img/roots.jpg" alt="Capa de Roots">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-roots.html">ROOTS</a></td>
+                            <td>Sepultura</td>
+                            <td>Henrocker</td>
+                            <td>26/08/2026</td>
+                        </tr>
+                        <tr data-album="everydawnsamountain">
+                            <td>
+                                <a href="publicacao-everydawnsamountain.html">
+                                    <img src="img/everydawnsamountain.jpg" alt="Capa de Every Dawn's A Mountain">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-everydawnsamountain.html">EVERY DAWN'S A MOUNTAIN</a></td>
+                            <td>Tamino</td>
+                            <td>Konishi</td>
+                            <td>19/06/2026</td>
+                        </tr>
+                        <tr data-album="becausetheinternet">
+                            <td>
+                                <a href="publicacao-becausetheinternet.html">
+                                    <img src="img/becausetheinternet.jpg" alt="Capa de Because The Internet">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-becausetheinternet.html">BECAUSE THE INTERNET</a></td>
+                            <td>Childish Gambino</td>
+                            <td>Henrocker</td>
+                            <td>22/05/2026</td>
+                        </tr>
+                        <tr data-album="petgrief">
+                            <td>
+                                <a href="publicacao-petgrief.html">
+                                    <img src="img/petgrief.jpg" alt="Capa de Pet Grief">
+                                </a>
+                            </td>
+                            <td><a href="publicacao-petgrief.html">PET GRIEF</a></td>
+                            <td>The Radio Dept.</td>
+                            <td>Konishi</td>
+                            <td>15/02/2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>SONORA | Música - O que ouvimos, o que pensamos</p>
+        <a href="contato.html">Entre em Contato</a>
+    </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

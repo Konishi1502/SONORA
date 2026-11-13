@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | SONORA</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">SONORA</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="https://www.albumoftheyear.org/" target="_blank" rel="noopener noreferrer">Explorar AOTY ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="pagina-contato">
+            <div class="cabecalho-contato">
+                <h1>Entre em contato.</h1>
+                <p>Tem alguma sugestão, dúvida ou recomendação musical? Queremos ouvir você.</p>
+            </div>
+
+            <div class="conteudo-contato">
+                <div class="informacoes-contato">
+                    <h2>Vamos conversar.</h2>
+                    <p>O SONORA é um espaço para compartilhar descobertas, opiniões e experiências musicais.</p>
+                    <div class="detalhes-contato">
+                        <h3>FALE COM A GENTE</h3>
+                        <p>Sugestões de álbuns, comentários e dúvidas são sempre bem-vindos.</p>
+                    </div>
+                </div>
+
+                <form id="formulario-contato">
+                    <div class="campo-contato">
+                        <label for="nome">Nome</label>
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Seu nome"
+                            minlength="3"
+                            pattern="[A-Za-zÀ-ÿ ]+"
+                            required>
+                    </div>
+
+                    <div class="campo-contato">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="seu@email.com"
+                            required>
+                    </div>
+
+                    <div class="campo-contato">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="" disabled selected>
+                                Selecione um assunto
+                            </option>
+                            <option value="sugestao">
+                                Sugestão de álbum
+                            </option>
+                            <option value="duvida">
+                                Dúvida
+                            </option>
+                            <option value="feedback">
+                                Feedback
+                            </option>
+                            <option value="outro">
+                                Outro
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="campo-contato">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="6"
+                            placeholder="Escreva sua mensagem..."
+                            minlength="10"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="botao-contato">
+                        ENVIAR MENSAGEM
+                    </button>
+                    <p id="resultado-contato" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>SONORA | Música - O que ouvimos, o que pensamos</p>
+        <a href="contato.html">Entre em contato</a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
